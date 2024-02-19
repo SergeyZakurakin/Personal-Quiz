@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DC753B7D2B68453D00A1AE84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC753B7C2B68453D00A1AE84 /* AppDelegate.swift */; };
 		DC753B7F2B68453D00A1AE84 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC753B7E2B68453D00A1AE84 /* SceneDelegate.swift */; };
-		DC753B812B68453D00A1AE84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC753B802B68453D00A1AE84 /* ViewController.swift */; };
+		DC753B812B68453D00A1AE84 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC753B802B68453D00A1AE84 /* IntroductionViewController.swift */; };
 		DC753B842B68453D00A1AE84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC753B822B68453D00A1AE84 /* Main.storyboard */; };
 		DC753B862B68453F00A1AE84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC753B852B68453F00A1AE84 /* Assets.xcassets */; };
 		DC753B892B68453F00A1AE84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC753B872B68453F00A1AE84 /* LaunchScreen.storyboard */; };
@@ -17,21 +17,25 @@
 		DC753BB92B69A6F300A1AE84 /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC753BB82B69A6F300A1AE84 /* ResponseType.swift */; };
 		DC753BBB2B69ABFC00A1AE84 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC753BBA2B69ABFC00A1AE84 /* Answer.swift */; };
 		DC753BBD2B69AD1800A1AE84 /* AnimalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC753BBC2B69AD1800A1AE84 /* AnimalType.swift */; };
+		DC753BE12B6C3FFF00A1AE84 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC753BE02B6C3FFF00A1AE84 /* QuestionsViewController.swift */; };
+		DC753BE32B6C408F00A1AE84 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC753BE22B6C408F00A1AE84 /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DC753B792B68453D00A1AE84 /* Personal Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Personal Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC753B7C2B68453D00A1AE84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC753B7E2B68453D00A1AE84 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC753B802B68453D00A1AE84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC753B802B68453D00A1AE84 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		DC753B832B68453D00A1AE84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC753B852B68453F00A1AE84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC753B882B68453F00A1AE84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DC753B8A2B68453F00A1AE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC753BB02B69A32500A1AE84 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		DC753BB82B69A6F300A1AE84 /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
 		DC753BBA2B69ABFC00A1AE84 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 		DC753BBC2B69AD1800A1AE84 /* AnimalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalType.swift; sourceTree = "<group>"; };
+		DC753BBE2B6AE51E00A1AE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Personal Quiz/Suporting Files/Info.plist"; sourceTree = SOURCE_ROOT; };
+		DC753BE02B6C3FFF00A1AE84 /* QuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		DC753BE22B6C408F00A1AE84 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +81,9 @@
 		DC753BB22B69A36400A1AE84 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DC753B802B68453D00A1AE84 /* ViewController.swift */,
+				DC753B802B68453D00A1AE84 /* IntroductionViewController.swift */,
+				DC753BE02B6C3FFF00A1AE84 /* QuestionsViewController.swift */,
+				DC753BE22B6C408F00A1AE84 /* ResultsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -105,8 +111,8 @@
 		DC753BB52B69A3F500A1AE84 /* Suporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DC753BBE2B6AE51E00A1AE84 /* Info.plist */,
 				DC753B7C2B68453D00A1AE84 /* AppDelegate.swift */,
-				DC753B8A2B68453F00A1AE84 /* Info.plist */,
 			);
 			path = "Suporting Files";
 			sourceTree = "<group>";
@@ -198,12 +204,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC753B812B68453D00A1AE84 /* ViewController.swift in Sources */,
+				DC753B812B68453D00A1AE84 /* IntroductionViewController.swift in Sources */,
 				DC753BB12B69A32500A1AE84 /* Question.swift in Sources */,
 				DC753B7D2B68453D00A1AE84 /* AppDelegate.swift in Sources */,
 				DC753BBB2B69ABFC00A1AE84 /* Answer.swift in Sources */,
 				DC753B7F2B68453D00A1AE84 /* SceneDelegate.swift in Sources */,
+				DC753BE32B6C408F00A1AE84 /* ResultsViewController.swift in Sources */,
 				DC753BB92B69A6F300A1AE84 /* ResponseType.swift in Sources */,
+				DC753BE12B6C3FFF00A1AE84 /* QuestionsViewController.swift in Sources */,
 				DC753BBD2B69AD1800A1AE84 /* AnimalType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

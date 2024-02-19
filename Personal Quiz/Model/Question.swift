@@ -16,8 +16,10 @@ struct Question {
 }
 
 
+
+
 extension Question {
-    static func Questions() -> [Question] {
+    static func getQuestions() -> [Question] {
         return [
             Question(text: "What food do you like?",
                      type: .single,
